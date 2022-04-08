@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 @Repository
-public class RepoTestProc{
+public class RepoTestEntityManager {
 
   private final static String PROCEDURE = "removeUnresolvedUtility";
 
