@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class RepoTestJDBCTemplate {
 
-  private final static String PROCEDURE_NAME = "removeUnresolvedUtility";
+  private final static String PROCEDURE_NAME = "removeunresolvedutility";
 
   @Autowired
   private JdbcTemplate jdbcTemplate;
